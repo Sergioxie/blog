@@ -1,0 +1,44 @@
+baseURL: "https://sergioxie.github.io/blog/"
+title: "悠远境梦"
+theme: "PaperMod"
+languageCode: "zh-cn"
+DefaultContentLanguage: "zh-cn"
+
+enableRobotsTXT: true
+
+params:
+  env: production
+  description: "AI、安全、科技深度分析"
+  author: "悠远境梦"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  comments: false
+
+  homeInfoParams:
+    Title: "悠远境梦"
+    Content: "AI、安全、科技交叉领域的深度分析。从芯片到模型，从监管到地缘。"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Sergioxie"
+    - name: email
+      url: "mailto:5849712@qq.com"
+
+menu:
+  main:
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: 归档
+      url: /archives/
+      weight: 30
